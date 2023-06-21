@@ -1,357 +1,925 @@
 h1{
-text-align: left;
-margin-left: 100px;
-font-family: 'Julius Sans One', sans-serif;
-}
-.WH{
-    display: flex;
-    float: left;
-    width: 100px;
-    height: 100px;
-    margin-left: 20px;
-    margin-top: -100px;
-}
-body{
-    font-family: 'Montserrat Alternates', sans-serif;
-    margin-left:auto;
-    background-color: #2A0A32;
-    color: white;
-    align-items: center;
-    justify-content: flex-end;
-    margin:auto; 
-    text-align: flex-start;
-    font-size: 25px;
-}
-header{
-    padding: 10px;
-    background-color:#2A0A32;
-    color: white;
-    align-items: top;
-}
-
-nav ul{
-    display: flex;
-    justify-content: right;
-    color: white
-
-}
-.barra{
-    display: flex;
-    width: 1080px;
-    height: 100px;
-    align-items: center;
-    flex-direction: column;
-    justify-self: flex-start;
-}
-
-ul a {
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    font-size: 20px;
-    color: white;
-    margin: 20px;
-    margin-top: -60px;
-}
-
-.principal h2,h3{
-    color: white;
-    font-size: 30px;
-    justify-content: center; 
-    text-align: center;
-    margin-left: 30px;
-    font-family:'Birthstone Bounce', cursive;
-    margin-top: 5%;
-}
-.principal h3{
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 20px;
-    margin-top: 2%;
-}
-
-.cuadro{
-    width: 200px; 
-    height: 55px; 
-    border: 2px solid black; 
-    align-items: center;
-    margin-left: 43%;
-    margin-top: 7%;
-    background-color: black;
-}
-
-.cuadro p{
-    text-align: justify; 
-    align-items: justify;
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    margin-left: 25px;
-    color: white;
-    text-decoration: none;
-}
-
-.cuadro p:hover{
-    background-color: white;
-    color: black;
-}
-.cuadro:hover{
-    background-color: white;
-    color: black;
-}
-
-img{
-    display: block;
-    margin-bottom: 20px;
-    width: 60%;
-    height: 5m;
-    margin: auto;
-    margin-top: 30px;
-    
-}
-
-.RedesSociales{
-    max-width: 30px;
-    max-height: 30px;
-    margin-bottom: 35px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    margin-left: 620px;
-}
-
-
-.fondo{
-    background-image: url(https://img.archiexpo.es/images_ae/photo-g/132605-10788216.webp);
-    background-repeat: repeat;
-    width: 32,5cm;
-    height: 40cm;
-    position:absolute;
-    background-size:cover;
-}
-
-.vino{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    justify-content:left;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    padding-top: 30px;
-}
-
-.segundo h2,h3{
-    color: white;
-    font-size: 20px;
-    justify-content: left;
-    margin-left: 30px;
-    font-family: 'Poppins', sans-serif;
-
-}
-
-.segundo h3{
-    justify-content: left;
     text-align: left;
-    margin-left: 30px;
-}
-
-h4,h5,h6,h7,h8,h9,h10,h11,h12,h13,h14{
-    font-family:'Manrope', sans-serif;
-    color: white;
-    text-align: flex-start;
-    font-size: 27px;
-    font-weight: bold;
-    margin-left: 30px;
-    margin-top: 50px;
-}
-
-p{
-    font-family:'Manrope', sans-serif;
-    color: white;
-    text-align:left;
-    font-size: 17px;
-    margin-left: 30px;
-}
-
-.Contenedor{
-    float:left;
-    column-count: 2;
-    column-gap: 20px;
-}
-
-.Introduccion{
-    font-family: "Poppins", sans-serif;
-    margin-left: 20px;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: -20px;
-    padding-right: 40px;
-}
-
-.Introduccion2{
-    font-family: "Poppins", sans-serif;
-    margin-left: 20px;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: -20px;
-    padding-right: 40px;
-    font-weight: bold;
-}
-.Presentacion1{
-    font-family: 'Poppins', sans-serif;
-    background-color: #2A0A32;
-    color: white;
-    justify-content: flex-end;
-    text-align: flex-start;
-    font-size: 23px;
-    display: flex;
-    justify-content: center;
-    padding-top: 230px;
-    margin-left: -485px;
-}
-
-.Presentacion2{
-    font-family: "Poppins", sans-serif;
-    background-color: #2A0A32;
-    color: white;
-    justify-content:baseline;
-    text-align: flex-start;
-    font-size: 23px;
-    display: flex;
-    justify-content: center;
-    padding-top: 25px;
-    margin-left: auto;
-    margin-top: -57px;
-}
-
-.Presentacion3{
-    font-family: "Poppins", sans-serif;
-    background-color: #2A0A32;
-    color: white;
-    justify-content: flex-end;
-    text-align: flex-start;
-    font-size: 23px;
-    display: flex;
-    justify-content: right;
-    padding-top: 255px;
-    margin-right: 355px;
-    margin-top: -288px;
-}
-
-.Fotodueños{
-    margin-bottom: 20px;
-    margin: auto;
-    margin-top: 30px;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto; 
-    text-align: center;
-    justify-content: center;
- }
-      
-.Fotodueños img{
-    width: 150%; 
-    margin-right: 10px; 
-    text-align: center;
-    justify-content: center;
-}
+    margin-left: 100px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 50px;
+    display: block;
+    margin-top: 0px;
+    }
     
-.Fotodueños img:last-child{
-    margin-right: 0;
-    text-align: center;
-    justify-content: center;
-}
+    .WH{
+        display: flex;
+        float: left;
+        width: 80px;
+        height: 80px;
+        margin-left: 20px;
+        margin-top: -100px;
+    }
+    
+    body{
+        font-family: 'Poppins', sans-serif;
+        margin-left:auto;
+        background-color: #2A0A32;
+        color: white;
+        align-items: center;
+        justify-content: flex-end;
+        margin:auto; 
+        text-align: flex-start;
+        font-size: 25px;
+        font-weight: bold;
+        width: 100%;
+    }
+    
+    header{
+        background-color:#2A0A32;
+        color: white;
+        margin-top: 40px;
+    }
+    
+    nav ul{
+        display: flex;
+        justify-content: right;
+        color: white;
+        margin-top: 20px;
+    }
+    
+    .barra{
+        display: flex;
+        width: 1080px;
+        height: 100px;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-self: flex-start;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    
+    ul a {
+        text-decoration: none;
+        flex-direction: row;
+        font-size: 10px;
+        color: white;
+        margin-left: 75%;
+    }
 
-.Textito h2{
-    color: white;
-    font-size: 30px;
-    justify-content: left;
-    margin-left: 50px;
-    margin-top: 75px;
-    font-family: 'Poppins', sans-serif;
-}
+    .menu{
+ 
+        padding-top: 10px;
+        justify-content:flex-end;
+        display:flex;
+        font-size: 20px;
+    }
 
-.Textito h3{
-    color: white;
-    font-size: 15px;
-    justify-content: justify;
-    margin-left: 5px;
-    font-family: 'Poppins', sans-serif;
-}
+    .menu a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        flex-wrap: wrap;
+        justify-self: flex-start;
+    }
 
-.Textito h4{
-    color: white;
-    font-size: 15px;
-    justify-content: justify;
-    margin-left: 122px;
-    font-family: 'Poppins', sans-serif;
-    margin-right: 80px;
-}
+    .menu2{
+        display: none;
+    }
 
-.Textito h5{
-    color: white;
-    font-size: 15px;
-    justify-content: justify;
-    margin-left: 122px;
-    font-family: 'Poppins', sans-serif;
-    margin-right: 80px;
-}
+    #check{
+        display: none;
+    }
 
-.contacto{
-    color: white;
-    font-size: 30px;
-    justify-content: center; 
-    text-align: center;
-    margin-left: 12px;
-    font-family: 'Poppins', sans-serif;
-    font-weight:bolder;
-}
+    .mostrar-menu{
+        display: none;
+    }
 
-.Contactofinal{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 60vh; 
-}
-  
-.contacto,.Mail,.Telefono{
-    margin-bottom: 10px; 
-}
-  
+    .esconder-menu{
+        display: none;
+    }
+    
+    .principal h2,h3{
+        color: white;
+        font-size: 50px;
+        justify-content: center; 
+        text-align: center;
+        margin-left: 2px;
+        font-family:'Birthstone Bounce', cursive;
+        margin-top: 5%;
+    }
+    
+    .principal h3{
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+        margin-top: 20px;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+    
+    .cuadro{
+        width: 200px; 
+        height: 55px; 
+        border: 2px solid black; 
+        align-items: center;
+        margin-left: 42%;
+        margin-top: 7%;
+        background-color: white;
+        margin-bottom: 10%;
+    }
+    
+    .cuadro p{
+        text-align: justify; 
+        align-items: justify;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        margin-left: 33px;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .cuadro p:hover{
+        background-color: black;
+        color: white;
+    }
+    
+    .cuadro:hover{
+        background-color: black;
+        color: white;
+    }
+    
+    .fotos{
+        display: flex;
+        margin: auto;
+        margin-left: 5px;
+        margin-right: 5px;
+        justify-content: space-evenly;
+    }
+    
+    .fotos img{
+        width: 500px;
+        height: 350px;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .RedesSociales{
+        width: 50px;
+        height: 50px;
+        margin-bottom: 35px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-left: 600px;
+        margin-top: 45px;
+    }
+    
+    .fondo{
+        background-image: url(https://img.archiexpo.es/images_ae/photo-g/132605-10788216.webp);
+        background-repeat: repeat;
+        width: 32,5cm;
+        height: 40cm;
+        position:absolute;
+        background-size:cover;
+    }
+    
+    .botonINICIO4{
+        width: 100px; 
+        height: 40px; 
+        align-items: center;
+        margin-left: 30px;
+        background-color: white;
+        margin-top: 30px;
+        color: black;
+    }
+    
+    .botonINICIO4 p{
+        text-align: justify; 
+        align-items: justify;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        margin-left: 28px;
+        margin-top: 40px;
+        color: black;
+        size: 20px;
+        text-decoration: none;
+        padding-top: 8%;
+    }
+    
+    .botonINICIO4 p:hover{
+        color: white;
+    }
+    
+    .botonINICIO4:hover{
+        background-color: #5F1533;
+        color: white;
+    }
+    
+    .menuCARTA{
+        background-image: url(https://img.archiexpo.es/images_ae/photo-g/132605-10788216.webp);
+        background-repeat: no-repeat;
+        width: 32,5cm;
+        height: 40cm;
+        position:absolute;
+        background-size:cover;
+    }
+    
+    .vino{
+        font-family: "Montserrat Alternative" sans-serif;
+        color: white;
+        justify-content:left;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        padding-top: 30px;
+    }
+    
+    .segundo h2,h3{
+        color: white;
+        font-size: 20px;
+        justify-content: left;
+        margin-left: 30px;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    
+    .segundo h3{
+        justify-content: left;
+        text-align: left;
+        margin-left: 30px;
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 5%;
+    }
+    
+    h4{
+        font-family:'Poppins', sans-serif;
+        color: white;
+        text-align: flex-start;
+        font-size: 27px;
+        margin-left: 30px;
+        margin-top: 0;
+    }
+    
+    p{
+        font-family:'Poppins', sans-serif;
+        color: white;
+        text-align:left;
+        font-size: 15px;
+        margin-left: 30px;
+    }
+    
+    .Contenedor{
+        float:left;
+        column-count: 2;
+        column-gap: 20px;
+    }
+    
+    .Introduccion{
+        font-family: "Poppins", sans-serif;
+        margin-left: 20px;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: -20px;
+        padding-right: 40px;
+        margin-top: 20px;
+    }
+    
+    .Introduccion2{
+        font-family: "Poppins", sans-serif;
+        margin-left: 20px;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: -20px;
+        padding-right: 40px;
+        font-weight: bold;
+    }
+    
+    .botonINICIO{
+        width: 100px; 
+        height: 40px; 
+        border: 2px solid white; 
+        align-items: center;
+        margin-left: 30px;
+        background-color: white;
+        margin-top: 5px;
+        color: black;
+    }
+    
+    .botonINICIO p{
+        text-align: justify; 
+        align-items: justify;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        margin-left: 25px;
+        margin-top: 5px;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .botonINICIO p:hover{
+        background-color: black;
+        color: white;
+    }
+    
+    .botonINICIO:hover{
+        background-color: black;
+        color: white;
+        border: 2px solid black;
+    }
+    
+    .contenedor-imagenes{
+    width: 100%;
+    }
+    
+    .contenedor-dueños{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .persona1 img{
+        width: 200px;
+        height: 300px;
+        justify-content: space-between;
+        margin: 20px;
+    }
+    
+    .persona1 h1{
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+    
+    .Textito h2{
+        color: white;
+        font-size: 30px;
+        justify-content: left;
+        margin-left: 50px;
+        margin-top: 75px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .Textito h3{
+        color: white;
+        font-size: 15px;
+        justify-content: justify;
+        margin-left: 5px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .Textito h4{
+        color: white;
+        font-size: 15px;
+        justify-content: justify;
+        margin-left: 122px;
+        font-family: 'Poppins', sans-serif;
+        margin-right: 80px;
+    }
+    
+    .Textito h5{
+        color: white;
+        font-size: 15px;
+        justify-content: justify;
+        margin-left: 122px;
+        font-family: 'Poppins', sans-serif;
+        margin-right: 80px;
+    }
+    
+    .contacto{
+        color: white;
+        font-size: 30px;
+        justify-content: center; 
+        text-align: center;
+        margin-left: 12px;
+        font-family: 'Poppins', sans-serif;
+        font-weight:bolder;
+    }
+    
+    .Contactofinal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 60vh; 
+    }
+      
+    .contacto,.Mail,.Telefono{
+        margin-bottom: 10px; 
+    }
+      
+    
+    .Mail{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Telefono{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .WH2 img{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .reservarcuadrado{
+        width: 100%;
+    }
+    
+    .boton{
+        height: 40px;
+        width: 100px;
+        border: solid 3px white;
+        margin-right: 90%;
+        
+    }
+    
+    .boton a {
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .boton a:hover {
+        color: white;
+    }
+      
+    .boton:hover {
+        background-color: black;
+    }
+    
+    
+    .IntroduccionReserva h2,h3{
+        color: white;
+        font-size: 25px;
+        justify-content: center;
+        text-align: center;
+        margin-top: 40px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .IntroduccionReserva h3{
+        margin-bottom: 50px;
+    }
+    
+    .reservar2{
+        font-family: "Poppins", sans-serif;
+        margin-left: 20px;
+        display: flex;
+        justify-content: flex-end;
+        background-color: white;
+        align-items: right;
+    }
+    
+    #fondo-reserva{
+        background-image:linear-gradient(
+            0deg,
+         rgba(0, 0, 0, 0.5),
+         rgba(0, 0, 0, 0.5)
+        )
+        ,url(../imagenes/fondo\ RESERVA\ \(2\).png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .Formularios-reserva ul li{
+        font-family: "Poppins", sans-serif;
+        margin-left: 30px;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+        size: 40px;
+        color: white;
+        flex-direction: row;
+        list-style-type: none;
+    }
+    
+    .botonINICIO2{
+        width: 100px; 
+        height: 40px; 
+        border: 2px solid white; 
+        align-items: center;
+        margin-left: 30px;
+        background-color: white;
+        margin-top: 50px;
+        color: black;
+    }
+    
+    .botonINICIO2 p{
+        text-align: justify; 
+        align-items: justify;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        margin-left: 25px;
+        margin-top: 5px;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .botonINICIO2 p:hover{
+        background-color: black;
+        color: white;
+    }
+    
+    .botonINICIO2:hover{
+        background-color: black;
+        color: white;
+        border: 2px solid black;
+    }
+    
+    .botonINICIO3{
+        width: 100px; 
+        height: 40px; 
+        border: 2px solid white; 
+        align-items: center;
+        margin-left: 30px;
+        background-color: white;
+        margin-top: 50px;
+        color: black;
+    }
+    
+    .botonINICIO3 p{
+        text-align: justify; 
+        align-items: justify;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        margin-left: 25px;
+        margin-top: 5px;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .botonINICIO3 p:hover{
+        background-color: black;
+        color: white;
+    }
+    
+    .botonINICIO3:hover{
+        background-color: black;
+        color: white;
+        border: 2px solid black;
+    }
+    
+    .Formularios p{
+        color: white;
+        font-size: 30px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 40px;
+        margin-left: -3px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .Formulario{
+        font-family: "Poppins", sans-serif;
+        margin-left: 130px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        size: 30px;
+        color: white;
+        margin-top: 70px;
+    }
+    
+    .Formulario-cuadro{
+        width: 850px; 
+        height: 40px; 
+        border: 2px solid black; 
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 200px;
+        background-color: black;
+        margin-top: 100px;
+        color: white;
+        font-size: 23px;
+    }
+    
+    #fondoLOGIN{
+        background-size: auto;
+        background-image:linear-gradient(
+            0deg,
+         rgba(0, 0, 0, 0.5),
+         rgba(0, 0, 0, 0.5)
+        )
+        ,url(../imagenes/foto\ LOGIN.jpg);
+        background-repeat: repeat;
+    }
+    
 
-.Mail{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+    @media (max-width:768px){
+        .mostrar-menu,
+        .esconder-menu{
+          display: block;
+        }
+    
+        .menu{
+          position: fixed;
+          width: 100%;
+          height: 100vh;
+          background-color:  #5f306b;
+          right: -100%;
+          margin-top:0;
+          text-align: center;
+          z-index: 100;
+          transition: o,2s;
+          flex-direction: column;
+          justify-content: flex-start;
+          margin: auto;
+          
+        }
+        .menu a{
+          display: block;
+          padding: 10px;
+          color: white;
+          text-decoration: none;
+          flex-direction: column;
+          margin-top: 20px;
+        }
 
-.Telefono{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+        .menu a:hover{
+            color: black;
+        }
+    
+        .esconder-menu{
+          position: absolute;
+          top:30px;
+          right: 40px;
+        }
+    
+        .mostrar-menu{
+            margin-left: 95%;
+            margin-top: 5px;
+        }
+      
+        #check:checked~ .menu{
+          right: 0;
+        }
 
-.WH2{
-    max-width: 240px;
-    max-height: 230px;
-    margin-bottom: 35px;
-    justify-content: center;
-    align-items: center;
-    vertical-align: middle;
-    flex-direction: column;
-    margin-left: 527px
-}
+        #check{
+            display: none;
+        }
+    
+        h1{
+            display: none;
+        }
+    
+        .WH{
+            width: 40px;
+            height: 40px;
+            margin-top: 2px;
+        }
 
-.botonRESERVA{
-    font-family: "Poppins", sans-serif;
-    margin-left: 20px;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 40px;
-    padding-right: 40px;
-    font-weight: bold;
-    cursor: pointer;
-    position: sticky;
-}
+        .principal h2{
+            font-size: 30px;
+            margin-right: 10%;
+        }
+    
+        .principal h3{
+            font-size: 15px;
+        }
+        .cuadro{
+            justify-content: center;
+            margin-left: 47%;
+            width: 100px;
+            height: 35px;
+            text-align: center;
+            align-items: center;
+            margin: auto;
+            margin-bottom: 30px;
+        }
+        .cuadro p{
+            font-size: 10px;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin: auto;
+            margin-top: 8%;
+            
+        }
+
+        .fotos{
+            display: block;
+        }
+        .fotos img{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: auto;
+            margin-bottom: 30px;
+            flex-direction: column;
+            display: flex;
+            width: 400px;
+            height: 270px;
+            display: block;
+        }
+        
+        .RedesSociales{
+            margin: auto;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+} 
+    
+    @media (max-width:768px){
+        .Carta h1{
+            font-size: 30px;
+            margin-left: 30px;
+        }
+    
+        .Contenedor1 p{
+            font-size: 15px;
+        }
+    
+        .Contenedor1 h4{
+            font-size: 20px;
+        }
+    
+        .Contenedor2 p{
+            font-size: 15px;
+        }
+    
+        .Contenedor2 h4{
+            font-size: 20px;
+        }
+    
+        .segundo h3{
+            margin-bottom: 70px;
+        }
+    }
+    
+    @media screen and (max-width:800px){
+        .contenedor-dueños{
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .persona1{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    
+        .h1{
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+            text-align: center;
+        }
+        .botonINICIO{
+            margin-top: 0px;
+        }
+    
+        .WH2 img{
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            width: 70px;
+            height: 70px;
+            margin-top: 0;
+        }
+    
+        .contenedor-imagenes{
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 100px;
+    
+        }
+    
+        .Textito h3{
+            display: flex;
+            text-align: justify;
+            margin-left: 30px;
+            margin-right: 5px;
+            font-size: 13px;
+        }
+    
+        .Textito h2{
+            display: flex;
+            text-align: justify;
+            margin-left: 30px;
+    
+        }
+        .Textito h4{
+            display: flex;
+            text-align: justify;
+            margin-left: 30px;
+            font-size: 13px;
+        }
+    
+        .Textito h5{
+            display: flex;
+            text-align: justify;
+            margin-left: 30px;
+            font-size: 13px;
+            margin-bottom: 0;
+        }
+    
+        .contacto{
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+        }
+    
+        .Mail{
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+        }
+    
+        .Telefono{
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+        }
+    
+        .boton a{
+            font-size: 20px;
+        }
+    
+        .boton{
+            width: 80px;
+            height: 30px;
+            margin-bottom: 20px;
+            margin-left: 30px;
+        }
+    }
+    
+    
+    
+    @media(max-width: 768px){
+        .IntroduccionReserva h2{
+            font-size: 23spx;
+            padding: 5px;
+        }
+        .IntroduccionReserva h3{
+            font-size: 23px;
+            padding-top: 2%;
+            margin-top: 5px;
+            margin-bottom: 15%;
+        }
+        .Formularios-reserva ul li{
+            list-style: none;
+            margin-left: 10px;
+            font-size: 20px;
+        }
+    }
+    
+    @media(max-width: 768px){
+        .Formularios{
+            size: 15px;
+            font-size: 15px;
+            justify-content: left;
+            text-align: left;
+            align-items: left;
+        }
+        .Formulario{
+            align-items: left;
+            justify-content: left;
+            text-align: left;
+            margin-left: 10px;
+    
+        }
+        .Formulario-cuadro{
+            height: 0;
+            width: 0;
+        }
+        .Formulario li{
+            margin-bottom: 10px;
+        }
+          
+        label{
+            display: block;
+            font-weight: bold;
+            margin-left: 20px;
+        }
+          
+        input, textarea{
+            width: 20%;
+            margin-left: 20px;
+        }
+        
+        input, email{
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+          
+    }
